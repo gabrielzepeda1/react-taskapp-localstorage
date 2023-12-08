@@ -16,12 +16,17 @@ function App() {
     });
   }
 
+  const toggleTask = task => { 
+    setTaskItems( 
+      taskItems.map((t) => (t.name === task.name ? { ...t, done: !t.done } : t))
+    );
+  }
+
   useEffect(() => {
-    // let data = localStorage.getItem('tasks')
-    // if (data) {
-    //   setTaskItems(JSON.parse(data))
-    // }
-    console.log("load");
+    let data = localStorage.getItem('tasks')
+    if (data) {
+      setTaskItems(JSON.parse(data))
+    }
   }, []);
 
   useEffect(() => {
@@ -31,7 +36,7 @@ function App() {
   return (
     <div className="App">
       <TaskCreator createNewTask={createNewTask} />
-      <TaskTable tasks={taskItems}/>
+      <TaskTable tasks={taskItems} toggleTask= {toggleTask}/>
       
     </div>
   );

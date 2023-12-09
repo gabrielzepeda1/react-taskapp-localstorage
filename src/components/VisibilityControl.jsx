@@ -16,7 +16,7 @@ const VisibilityControl = ({ isChecked, setShowCompleted, cleanTasks}) => {
           type="checkbox"
           onChange={(e) => setShowCompleted(e.target.checked)}
         />{" "}
-        <label>Show Tasks Done</label></div>
+        <label>Show Completed Tasks</label></div>
 
         <button onClick={handleDelete} className='btn btn-danger btn-sm'> 
             Clear

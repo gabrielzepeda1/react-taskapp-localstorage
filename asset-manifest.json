@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/react-taskapp-localstorage/static/css/main.5d8c3224.css",
-    "main.js": "/react-taskapp-localstorage/static/js/main.f07ad5ca.js",
+    "main.js": "/react-taskapp-localstorage/static/js/main.dd32d846.js",
     "index.html": "/react-taskapp-localstorage/index.html",
     "main.5d8c3224.css.map": "/react-taskapp-localstorage/static/css/main.5d8c3224.css.map",
-    "main.f07ad5ca.js.map": "/react-taskapp-localstorage/static/js/main.f07ad5ca.js.map"
+    "main.dd32d846.js.map": "/react-taskapp-localstorage/static/js/main.dd32d846.js.map"
   },
   "entrypoints": [
     "static/css/main.5d8c3224.css",
-    "static/js/main.f07ad5ca.js"
+    "static/js/main.dd32d846.js"
   ]
 }

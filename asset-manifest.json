@@ -1,10 +1,10 @@
 {
   "files": {
-    "main.css": "/static/css/main.5d8c3224.css",
-    "main.js": "/static/js/main.f07ad5ca.js",
-    "index.html": "/index.html",
-    "main.5d8c3224.css.map": "/static/css/main.5d8c3224.css.map",
-    "main.f07ad5ca.js.map": "/static/js/main.f07ad5ca.js.map"
+    "main.css": "/https//gabrielzepeda1.github.io/react-taskapp-localstorage/static/css/main.5d8c3224.css",
+    "main.js": "/https//gabrielzepeda1.github.io/react-taskapp-localstorage/static/js/main.f07ad5ca.js",
+    "index.html": "/https//gabrielzepeda1.github.io/react-taskapp-localstorage/index.html",
+    "main.5d8c3224.css.map": "/https//gabrielzepeda1.github.io/react-taskapp-localstorage/static/css/main.5d8c3224.css.map",
+    "main.f07ad5ca.js.map": "/https//gabrielzepeda1.github.io/react-taskapp-localstorage/static/js/main.f07ad5ca.js.map"
   },
   "entrypoints": [
     "static/css/main.5d8c3224.css",
